@@ -1,0 +1,32 @@
+header{
+    background-color: $backColor;
+    height: 90px;
+    div{
+        a{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.nav-link{
+    font-weight: 600;
+    color:  $primaryColor;;
+    transition: all 1s;
+    &:hover{
+    color:  $secondaryColor;
+    }
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+    margin: 20px;
+    transition: width 1s, height 1s;
+    &:hover{
+        width: 50px;
+        height: auto;
+        }
+    }
